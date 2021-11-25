@@ -35,7 +35,7 @@ plt.plot(I, predict, label=f'Predicted Values\n'
 plt.title('Current Applied to Coil vs Electron Spin Resonance'
           '\nFrequency of DPPH Molecules')
 plt.xlabel('Current, I (A)')
-plt.ylabel('Resonance Frequency, $\\nu$ (Hz)')
+plt.ylabel('Resonance Frequency, $\\nu$ (MHz)')
 plt.legend()
 plt.savefig('fig.png')
 plt.show()
